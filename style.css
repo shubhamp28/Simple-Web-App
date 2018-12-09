@@ -1,0 +1,21 @@
+html{
+    background-color: rgb(221, 215, 215);
+}
+h1{
+    color: white;
+    background-color: #521751;
+    padding: 10px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.trip-details{
+    background-color: #e45959;
+    padding: 7px;
+}
+.trip-details p {
+    background-color: white;
+    margin: 0px;
+}
