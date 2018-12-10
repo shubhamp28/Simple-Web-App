@@ -1,16 +1,30 @@
 html{
     background-color: rgb(221, 215, 215);
 }
-h1{
-    color: white;
-    background-color: #521751;
-    padding: 10px;
-    margin: 0px;
+
+body {
+    margin: 0;
 }
-a{
+a {
     text-decoration: none;
     color: black;
 }
+
+.fixed-bar {
+    height: 60px;
+}
+.page-title {
+    color: white;
+    background-color: #521751;
+    padding: 10px;
+    height: 40px;
+    margin: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
 .trip-details{
     background-color: #e45959;
     padding: 7px;
@@ -18,4 +32,10 @@ a{
 .trip-details p {
     background-color: white;
     margin: 0px;
+}
+
+.feedback {
+    background-color: #521751;
+    color: white;
+    text-align: center;
 }
