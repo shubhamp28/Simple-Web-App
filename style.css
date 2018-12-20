@@ -40,11 +40,15 @@ a {
 
 .trip-imgs {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .trip-imgs img {
     width: 50%;
+    min-width: 200px;
+    max-width: 500px;
     height: 100%;
+
 }
 .feedback {
     background-color: #521751;
