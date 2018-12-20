@@ -1,5 +1,7 @@
 html{
     background-color: rgb(221, 215, 215);
+    font-size: 100%;
+    font-family: cursive;
 }
 
 body {
@@ -12,6 +14,7 @@ a {
 
 .fixed-bar {
     height: 60px;
+    font-size: 2em;
 }
 .page-title {
     color: white;
@@ -23,6 +26,7 @@ a {
     top: 0;
     width: 100%;
     text-align: center;
+    font-size: 2rem;
 }
 
 .trip-details{
@@ -36,6 +40,7 @@ a {
     text-align: center;
     margin: 0px;
     width: 50%;
+    font-size: 1rem;
 }
 
 .trip-imgs {
@@ -46,7 +51,6 @@ a {
 .trip-imgs img {
     width: 50%;
     min-width: 200px;
-    max-width: 500px;
     height: 100%;
 
 }
@@ -57,17 +61,20 @@ a {
     position: relative;
     margin: 0;
     bottom: 18px;
+    font-size: 1rem;
 }
 
 .navigation {
     text-align: center;
     padding: 0;
+    font-size: 1rem;
 }
 
-.navigation li, .navigation a {
+.navigation li {
     display: inline-block;
-    width: 70px;
-    background-color: #666566;
+    width: 20%;
+    background-color: #7c7a7c;
+    font-size: 1.3rem;
 }
 
 .review-clients p, .review-clients img {
@@ -84,6 +91,7 @@ a {
     border: 1px solid black;
     background-color: white;
     margin: 10px;
+    font-size: 1rem;
 }
 
 .review-clients img {
@@ -93,4 +101,5 @@ a {
 .review-clients p {
     width: 350px; 
     text-align: center;
+    font-size: 1rem;
 }
