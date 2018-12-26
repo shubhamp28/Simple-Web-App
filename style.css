@@ -12,6 +12,13 @@ a {
     color: black;
 }
 
+a:active {
+    color: #f5f260f5;
+}
+img:hover{
+    cursor: pointer;
+}
+
 .fixed-bar {
     height: 60px;
     font-size: 2em;
