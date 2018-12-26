@@ -29,19 +29,10 @@ a {
     font-size: 2rem;
 }
 
-.trip-details{
-    background-color: #e45959;
-    padding: 0;
-    display: flex;
+.trip-details {
+    display: none;
 }
-.trip-details p {
-    background-color: #521751;
-    color: white;
-    text-align: center;
-    margin: 0px;
-    width: 50%;
-    font-size: 1rem;
-}
+
 
 .trip-imgs {
     display: flex;
@@ -49,8 +40,7 @@ a {
 }
 
 .trip-imgs img {
-    width: 50%;
-    min-width: 200px;
+    width: 100%;
     height: 100%;
 
 }
@@ -74,7 +64,7 @@ a {
     display: inline-block;
     width: 20%;
     background-color: #7c7a7c;
-    font-size: 1.3rem;
+    font-size: 0.9rem;
 }
 
 .review-clients p, .review-clients img {
@@ -102,4 +92,30 @@ a {
     width: 350px; 
     text-align: center;
     font-size: 1rem;
+}
+
+@media (min-width: 400px){
+    .navigation li {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 700px){
+    .trip-imgs img {
+        width: 50%;
+    }
+
+    .trip-details{
+        background-color: #e45959;
+        padding: 0;
+        display: flex;
+    }
+    .trip-details p {
+        background-color: #521751;
+        color: white;
+        text-align: center;
+        margin: 0px;
+        width: 50%;
+        font-size: 1rem;
+    }
 }
